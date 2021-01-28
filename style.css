@@ -254,19 +254,22 @@ a
 .hebergements, .bloc_pages_populaires, .activites{
     padding: 10px 20px;
 }
-.bloc_photo_hebergements, .bloc_photos_populaires{
-    border: 6px solid white;
+.bloc_photo_hebergements, .bloc_photos_populaires, .bloc_photo_activites{
+    border: 0px solid #DEEBFF;
+      background-color: #DEEBFF;
 }
 .bloc_photo_hebergements, .bloc_photos_populaires, .bloc_photo_activites{
     height: 200px;
     margin-bottom: 20px;
     border-radius: 20px;
-    background-color: white;
+   
 }
 .bloc_photo_hebergements a, .bloc_photos_populaires a, .bloc_photo_activites a{ /* to extend the link throughout the div */
     display: block;
     height: 100%;
     width: 100%;
+    border: 30px;
+  
 }
 .bloc_photo_hebergements:hover, .bloc_photos_populaires:hover, .bloc_photo_activites:hover{
     transform: scale(1.1);/*permet d'agrandir le bloc photo*/
